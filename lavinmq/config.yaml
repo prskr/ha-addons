@@ -13,11 +13,10 @@ panel_title: LavinMQ
 arch:
   - aarch64
   - amd64
-  - armhf
-  - armv7
 map:
-  - data:rw
-options: {}
+  - type: data
+    read_only: false
+    path: /data
 ports:
   1883/tcp: null
 image: ghcr.io/prskr/ha-addons/{arch}-addon-lavinmq
