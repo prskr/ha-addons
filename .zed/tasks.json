@@ -1,0 +1,10 @@
+[
+    {
+        "label": "Start Home Assistant",
+        "command": "supervisor_run",
+        "args": [],
+        "use_new_terminal": false,
+        "allow_concurrent_runs": false,
+        "tags": ["build"]
+    }
+]

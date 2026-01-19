@@ -1,0 +1,21 @@
+name: LavinMQ
+version: 2.6.3
+slug: lavinmq
+description: Use LavinMQ as MQTT broker e.g. for Zigbee2MQTT
+url: https://codeberg.org/prskr/ha-addons
+startup: services
+ingress: true
+ingress_port: 15672
+ingress_stream: true
+init: false
+panel_icon: mdi:router-network-wireless
+panel_title: LavinMQ
+arch:
+  - aarch64
+  - amd64
+map:
+  - data:rw
+options: {}
+ports:
+  1883/tcp: null
+image: codeberg.org/prskr/ha-addons/{arch}-addon-lavinmq

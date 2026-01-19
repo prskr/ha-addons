@@ -1,0 +1,4 @@
+---
+build_from:
+  aarch64: cloudamqp/lavinmq:2.6.3
+  amd64: cloudamqp/lavinmq:2.6.3
