@@ -17,6 +17,5 @@ map:
   - type: data
     read_only: false
     path: /data
-ports:
-  1883/tcp: null
+host_network: true
 image: ghcr.io/prskr/ha-addons
