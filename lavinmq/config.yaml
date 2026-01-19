@@ -18,4 +18,4 @@ map:
     read_only: false
     path: /data
 host_network: true
-image: ghcr.io/prskr/ha-addons
+image: ghcr.io/prskr/{arch}-ha-addons
