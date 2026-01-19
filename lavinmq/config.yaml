@@ -19,4 +19,4 @@ map:
     path: /data
 ports:
   1883/tcp: null
-image: ghcr.io/prskr/ha-addons/{arch}-addon-lavinmq
+image: ghcr.io/prskr/ha-addons:2.6.3
